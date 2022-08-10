@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/api_sankhya/mge-modelcore.jar" sourcepath="/MGE-Modelcore-3.16.0"/>
+	<classpathentry kind="lib" path="/api_sankhya/jape.jar" sourcepath="/JAPE"/>
+	<classpathentry kind="lib" path="/api_outros/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/api_outros/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/api_outros/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/api_outros/java-json.jar"/>
+	<classpathentry kind="lib" path="/api_outros/javax.json-1.0.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
