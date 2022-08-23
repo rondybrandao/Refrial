@@ -24,10 +24,7 @@ Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na e
   - Tela "Motivos de Baixas PEFIN - Serasa".
   - Tela "Mov. PEFIN - Serasa". 
   - Tela "Naturezas PEFIN - Serasa".
- 
- ## Procedures
   
- * STP_TGFCAB_VALIDA_DESCONTO.
   
 ![YOUR github stats](https://github-readme-stats.vercel.app/api?username=rondynely)
 
