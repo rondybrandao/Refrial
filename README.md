@@ -1,7 +1,7 @@
 <img src="https://github.com/rondynely/Tecway/blob/main/LogoSankhyaBranco.png">
 
 ### Olá! 👋
-Este repositorio cotém arquivos de códigos e evidencias de testes do sistema Sankhya na empresa Refrial.
+Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na empresa Refrial.
 
 ## ⚡ Tecnologias
 ![Java](https://img.shields.io/badge/-java-E34A86?style=flat-square&logo=java)
@@ -11,12 +11,23 @@ Este repositorio cotém arquivos de códigos e evidencias de testes do sistema S
  
 * Github
 * Sankhya W
+
+## Integrações
+
+* Fullsoft
+* Serasa
+* Magento
  
 ## 🚀 Funcionalidades
  
-  - Tela "Veículos" com tratamento de excessões para venda de veículos imobilizados.
-  - Tela "Construtor de Componentes de BI", RELATORIO DE ANALISE DE CONFERENCIA.
+  - Tela "Solicitação Liberação Aplicação Financeira" ao solicitar investimento financeiro, o sistema enviará solicitação de liberação para o usuario liberador.
+  - Tela "Motivos de Baixas PEFIN - Serasa".
+  - Tela "Mov. PEFIN - Serasa". 
+  - Tela "Naturezas PEFIN - Serasa".
+ 
+ ## Procedures
   
+ * STP_TGFCAB_VALIDA_DESCONTO.
   
 ![YOUR github stats](https://github-readme-stats.vercel.app/api?username=rondynely)
 
