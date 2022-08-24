@@ -18,20 +18,22 @@ Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na e
 * Serasa
 * Magento
  
-## 🚀 Funcionalidades
- 
-  - Tela "Solicitação Liberação Aplicação Financeira" ao solicitar investimento financeiro, o sistema enviará solicitação de liberação para o usuario liberador.
-  - Tela "Motivos de Baixas PEFIN - Serasa".
-  - Tela "Mov. PEFIN - Serasa". 
-  - Tela "Naturezas PEFIN - Serasa".
- 
- ## ![pagina-inicial](https://user-images.githubusercontent.com/108894680/186267019-60239d3d-7858-4fca-b0e5-a8e447628a05.png) Link
+## 🚀 Telas
+
  <table>
   <tbody>
     <tr>
-      <td><a href="https://refrial.nuvemdatacom.com.br:9586/mge">Sistema Sankhya Refrial</a></td>
+      <td><a href="http://refrial.nuvemdatacom.com.br:9586/mge/system.jsp#app/YnIuY29tLnNhbmtoeWEubWVudS5hZGljaW9uYWwuQURfTElCTUJD">Solicitação Liberação Aplicação Financeira</a></td>
     </tr>
-    
+    <tr>
+      <td><a href="http://refrial.nuvemdatacom.com.br:9586/mge/system.jsp#app/YnIuY29tLnNhbmtoeWEubWVudS5hZGljaW9uYWwuQURfTElCTUJD">Motivos de Baixas PEFIN - Serasa</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://refrial.nuvemdatacom.com.br:9586/mge/system.jsp#app/YnIuY29tLnNhbmtoeWEubWVudS5hZGljaW9uYWwuQURfTElCTUJD">Mov. PEFIN - Serasa</a></td>
+    </tr>
+   <tr>
+      <td><a href="http://refrial.nuvemdatacom.com.br:9586/mge/system.jsp#app/YnIuY29tLnNhbmtoeWEubWVudS5hZGljaW9uYWwuQURfTElCTUJD">Naturezas PEFIN - Serasa</a></td>
+    </tr>
   </tbody>
 </table>
 
