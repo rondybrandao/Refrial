@@ -15,6 +15,7 @@ Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na e
 ## ![integracao-do-sistema (2)](https://user-images.githubusercontent.com/108894680/186256064-415508a3-aadd-4f24-9f33-aaa55375caf4.png) Integrações
 
 * Fullsoft
+* Systock
 * Serasa
 * Magento
  
