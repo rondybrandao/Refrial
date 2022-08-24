@@ -32,7 +32,13 @@ Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na e
       <td><a href="http://refrial.nuvemdatacom.com.br:9586/mge/system.jsp#app/YnIuY29tLnNhbmtoeWEubWVudS5hZGljaW9uYWwuQURfTElCTUJD">Mov. PEFIN - Serasa</a></td>
     </tr>
    <tr>
-      <td><a href="http://refrial.nuvemdatacom.com.br:9586/mge/system.jsp#app/YnIuY29tLnNhbmtoeWEubWVudS5hZGljaW9uYWwuQURfTElCTUJD">Naturezas PEFIN - Serasa</a></td>
+      <td><a href="http://refrial.nuvemdatacom.com.br:9586/mge/system.jsp#app/YnIuY29tLnNhbmtoeWEubWVudS5hZGljaW9uYWwuQURfTElCTUJD">Naturezas PEFIN - Serasa</a> </td>
+    </tr>
+    <tr>
+      <td><a href="http://refrial.nuvemdatacom.com.br:9586/mge/system.jsp#app/YnIuY29tLnNhbmtoeWEubWVudS5hZGljaW9uYWwuQURfQ0FUTUFH">Categorias Magento</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://refrial.nuvemdatacom.com.br:9586/mge/system.jsp#app/YnIuY29tLnNhbmtoeWEubWVudS5hZGljaW9uYWwuQURfVE1BR1BBUg==">Preferências Magento</a></td>
     </tr>
   </tbody>
 </table>
