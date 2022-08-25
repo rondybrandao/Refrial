@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <exportInfo>
+    <exportTime>23/08/2022 14:47:48</exportTime>
+    <systemVersion>4.12b85</systemVersion>
+    <systemCharSet>ISO-8859-1</systemCharSet>
+    <dbMetadata>
+      <dbUser>REFRIALPRD</dbUser>
+      <urlConnection><![CDATA[jdbc:oracle:thin:@10.40.4.6:1521/prd]]></urlConnection>
+      <jdbcDriver><![CDATA[Oracle JDBC driver 19.3.0.0.0]]></jdbcDriver>
+      <DBMS><![CDATA[Oracle - Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+Version 19.5.1.0.0]]></DBMS>
+    </dbMetadata>
+  </exportInfo>
+  <instances>
+    <instance name="AD_CATPROD" isUpdate="false">
+      <instanceDescription><![CDATA[Categorias]]></instanceDescription>
+      <tableInfo name="AD_CATPROD" sequenceType="A" sequenceField="CODIGO">
+        <category><![CDATA[Magento]]></category>
+        <tableDescription><![CDATA[Categorias]]></tableDescription>
+        <primaryKey>
+          <CODPROD />
+          <CODIGO />
+        </primaryKey>
+      </tableInfo>
+      <fields>
+        <field name="CODIGO" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="N">
+          <description><![CDATA[CODIGO]]></description>
+        </field>
+        <field name="CODPROD" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="N">
+          <description><![CDATA[Código]]></description>
+        </field>
+        <field name="CODCAT" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="S" size="10">
+          <description><![CDATA[Codido Categoria]]></description>
+        </field>
+      </fields>
+      <relationShip>
+        <relation entityName="AD_CATMAG" type="I" insert="N" update="N" remove="N">
+          <targetInfo systemInstance="N" tableName="AD_CATMAG" />
+          <fields>
+            <field localName="CODCAT" targetName="CODCAT" />
+          </fields>
+        </relation>
+      </relationShip>
+      <references>
+        <reference entityName="Produto" tableName="TGFPRO" type="I" insert="N" update="N" remove="N">
+          <!--Esse elemento "reference" diz respeito a campos da entidade exportada que são mencionados em tabelas do sistema.-->
+          <fields>
+            <field name="CODPROD" systemField="S" localName="CODPROD" />
+          </fields>
+        </reference>
+      </references>
+    </instance>
+    <instance name="AD_CATMAG" isUpdate="false">
+      <instanceDescription><![CDATA[Categorias Magento]]></instanceDescription>
+      <tableInfo name="AD_CATMAG" sequenceType="M" presentationField="DESCRICAO">
+        <category><![CDATA[Magento]]></category>
+        <tableDescription><![CDATA[Categorias Magento]]></tableDescription>
+        <primaryKey>
+          <CODCAT />
+        </primaryKey>
+      </tableInfo>
+      <fields>
+        <field name="CODCAT" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="N">
+          <description><![CDATA[Codido Categoria]]></description>
+          <properties>
+            <prop name="mascaraHierarquia"><![CDATA[MASC_CATMAG_PARAMVALUE=999.999]]></prop>
+          </properties>
+        </field>
+        <field name="CODCATPAI" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[CODCAT pai]]></description>
+          <properties>
+            <prop name="visivel"><![CDATA[N]]></prop>
+          </properties>
+        </field>
+        <field name="ID" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[ID]]></description>
+          <properties>
+            <prop name="nullable"><![CDATA[S]]></prop>
+            <prop name="visivel"><![CDATA[S]]></prop>
+            <prop name="readOnly"><![CDATA[N]]></prop>
+            <prop name="requerido"><![CDATA[S]]></prop>
+            <prop name="combobox"><![CDATA[N]]></prop>
+          </properties>
+        </field>
+        <field name="GRAU" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Grau]]></description>
+          <properties>
+            <prop name="visivel"><![CDATA[N]]></prop>
+          </properties>
+        </field>
+        <field name="ANALITICO" systemField="N" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Analítico]]></description>
+          <options>
+            <option value="N"><![CDATA[Não]]></option>
+            <option value="S" default="S"><![CDATA[Sim]]></option>
+          </options>
+          <properties>
+            <prop name="UITabName"><![CDATA[__main]]></prop>
+          </properties>
+        </field>
+        <field name="DESCRICAO" systemField="N" dataType="S" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="N">
+          <description><![CDATA[Descrição]]></description>
+          <properties>
+            <prop name="visivel"><![CDATA[S]]></prop>
+          </properties>
+        </field>
+      </fields>
+    </instance>
+  </instances>
+</metadata>
+
