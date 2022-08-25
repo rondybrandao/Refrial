@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <exportInfo>
+    <exportTime>28/07/2022 20:46:22</exportTime>
+    <systemVersion>4.12b85</systemVersion>
+    <systemCharSet>ISO-8859-1</systemCharSet>
+    <dbMetadata>
+      <dbUser>REFRIALPRD</dbUser>
+      <urlConnection><![CDATA[jdbc:oracle:thin:@10.40.4.6:1521/prd]]></urlConnection>
+      <jdbcDriver><![CDATA[Oracle JDBC driver 19.3.0.0.0]]></jdbcDriver>
+      <DBMS><![CDATA[Oracle - Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+Version 19.5.1.0.0]]></DBMS>
+    </dbMetadata>
+  </exportInfo>
+  <instances>
+    <instance name="AD_LIBMBC" isUpdate="false">
+      <instanceDescription><![CDATA[Liberação Movimentação Bancaria]]></instanceDescription>
+      <tableInfo name="AD_LIBMBC" sequenceType="A" sequenceField="CODLIBMBC">
+        <tableDescription><![CDATA[Liberação Movimentação Bancaria]]></tableDescription>
+        <primaryKey>
+          <NUFIN />
+          <CODLIBMBC />
+        </primaryKey>
+      </tableInfo>
+      <fields>
+        <field name="CODLIBMBC" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="N">
+          <description><![CDATA[Cód. Liberação de Movimentação Bancario]]></description>
+        </field>
+        <field name="NUFIN" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="N">
+          <description><![CDATA[Nro Único]]></description>
+        </field>
+        <field name="DTLANC" systemField="N" dataType="D" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Dt. Lançamento]]></description>
+        </field>
+        <field name="CODTIPOPER" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Cod. Tipo de Operação]]></description>
+        </field>
+        <field name="NUMDOC" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Num. Documento]]></description>
+        </field>
+        <field name="VLRLANC" systemField="N" dataType="F" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Valor do Lançamento]]></description>
+          <properties>
+            <prop name="nullable"><![CDATA[S]]></prop>
+            <prop name="visivel"><![CDATA[S]]></prop>
+            <prop name="nuCasasDecimais"><![CDATA[2]]></prop>
+            <prop name="readOnly"><![CDATA[N]]></prop>
+            <prop name="requerido"><![CDATA[S]]></prop>
+            <prop name="combobox"><![CDATA[N]]></prop>
+          </properties>
+        </field>
+        <field name="HISTORICO" systemField="N" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Histórico]]></description>
+        </field>
+        <field name="CODCTABCOORI" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Conta Origem]]></description>
+        </field>
+        <field name="CODLANC" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Lanc. Origem]]></description>
+        </field>
+        <field name="CODCTAMBCDEST" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Conta Destino]]></description>
+        </field>
+        <field name="CODLANCDEST" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="S" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Lanç. Destino]]></description>
+        </field>
+        <field name="CONCILIADO" systemField="N" dataType="S" presentationType="O" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Conciliado]]></description>
+          <options>
+            <option value="S"><![CDATA[Sim]]></option>
+            <option value="N" default="S"><![CDATA[Não]]></option>
+          </options>
+        </field>
+        <field name="CONCDEST" systemField="N" dataType="S" presentationType="O" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Conciliado Destino]]></description>
+          <options>
+            <option value="S"><![CDATA[Sim]]></option>
+            <option value="N" default="S"><![CDATA[Não]]></option>
+          </options>
+        </field>
+        <field name="VLRMOEDA" systemField="N" dataType="F" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Vlr. Moeda]]></description>
+        </field>
+        <field name="VLRLANCDEST" systemField="N" dataType="F" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Vlr. Lanç. Destino]]></description>
+        </field>
+        <field name="CODUSU" systemField="N" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="S" allowNull="S">
+          <description><![CDATA[Cód. Usuário]]></description>
+          <properties>
+            <prop name="nullable"><![CDATA[S]]></prop>
+            <prop name="visivel"><![CDATA[S]]></prop>
+            <prop name="readOnly"><![CDATA[S]]></prop>
+            <prop name="requerido"><![CDATA[N]]></prop>
+            <prop name="combobox"><![CDATA[N]]></prop>
+          </properties>
+        </field>
+      </fields>
+      <references>
+        <reference entityName="Financeiro" tableName="TGFFIN" type="I" insert="N" update="N" remove="S">
+          <!--Esse elemento "reference" diz respeito a campos da entidade exportada que são mencionados em tabelas do sistema.-->
+          <fields>
+            <field name="NUFIN" systemField="S" localName="NUFIN" />
+          </fields>
+        </reference>
+      </references>
+      <events>
+        <event type="RJ">
+          <description><![CDATA[EVENTO LIBERACAO BANCARIA]]></description>
+          <eventConfig>
+            <javaCall className="br.com.sankhya.eventos.LiberacaoBancaria" />
+          </eventConfig>
+          <moduleName><![CDATA[LIBERAÇÃO MOVIMENTO BANCARIO]]></moduleName>
+          <moduleResourceID><![CDATA[br.com.sankhya.liberacaoBancaria]]></moduleResourceID>
+        </event>
+      </events>
+    </instance>
+  </instances>
+</metadata>
+
