@@ -44,6 +44,30 @@ Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na e
   </tbody>
 </table>
 
+## Libraries (Modulo Java)
+ <table>
+  <tbody>
+    <tr>
+     <td>Classe java</td>
+     <td>Libraries</td>
+    </tr>
+    <tr>
+      <td>
+       <u>
+         <li>EventoLiberacaoBancaria.java</li>
+         <li>LiberacaoBancaria.java</li>
+        </u>
+       </td>
+      <td>
+       <u>
+        <li>mge-modelcore.jar</li>
+        <li>jape.jar</li>
+       </u>
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
   
 ![YOUR github stats](https://github-readme-stats.vercel.app/api?username=rondynely)
 
