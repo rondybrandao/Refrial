@@ -68,6 +68,10 @@ Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na e
     </tr>
   </tbody>
 </table>
+
+## ![download](https://user-images.githubusercontent.com/108894680/186968350-b54975cc-9c32-4fbd-8da0-88d8105b610a.png) Downloads
+[Sankhya.Downloads ](http://downloads.sankhya.com.br/)
+
   
 ![YOUR github stats](https://github-readme-stats.vercel.app/api?username=rondynely)
 
