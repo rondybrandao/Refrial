@@ -49,7 +49,7 @@ Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na e
  <table>
   <tbody>
     <tr>
-     <td>Classe java</td>
+     <td>Projeto</td>
      <td>Libraries</td>
     </tr>
     <tr>
@@ -66,7 +66,6 @@ Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na e
        </u>
       </td>
     </tr>
-    
   </tbody>
 </table>
   
