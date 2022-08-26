@@ -45,7 +45,7 @@ Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na e
   </tbody>
 </table>
 
-## Libraries (Modulo Java)
+## ![java](https://user-images.githubusercontent.com/108894680/186963630-ee640528-74c9-47c3-97a2-ea6aa3d2b434.png) Libraries (Modulo Java)
  <table>
   <tbody>
     <tr>
