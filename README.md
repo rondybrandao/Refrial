@@ -18,6 +18,7 @@ Este repositorio cotém arquivos de códigos do sistema Sankhya implantados na e
 * Systock
 * Serasa
 * Magento
+* Routeasy
  
 ## 🚀 Telas
 
